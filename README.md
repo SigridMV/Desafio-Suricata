@@ -1,4 +1,4 @@
-# Proyecto Desafío Suricata 🦝
+# Proyecto Desafío Suricata 
 
 ¡Bienvenido/a al proyecto Desafío Suricata! 
 
