@@ -1,0 +1,109 @@
+:root {
+  --white: #fff;
+  --pink: #e83e8c;
+  --info: #17a2b8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--white);
+}
+
+/* -----BARRA DE NAVEGACION--------*/
+
+
+.container-fluid {
+  background-color: var(--pink);
+}
+
+
+
+.navbar-nav {
+  margin-right: 118px;
+}
+
+.nav-link {
+  font-weight: 300;
+  color: var(--white);
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 119px;
+}
+
+
+/*---- TITULO____*/
+
+.card-section_title{
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: #212529;
+}
+
+/*----- TARJETAS--------*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text{
+  text-align: justify;
+  
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+/*----- FOOTER -----*/
+
+
+
+.iconos h3{
+  font-weight: 500;
+  color: var(--white);
+  font-size: 40px;
+}
+
+.iconos{
+  background-color:#17A2B8;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.iconos i{
+  padding-left: 15px;
+}
+
+.footer-img{
+  background-color: var(--pink);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-img img{
+  width: 54px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .iconos {
+    display: none; 
+  }
+}
